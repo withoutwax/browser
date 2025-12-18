@@ -6,15 +6,16 @@ While preparing for my job interview, I realized that my knowledge related web t
 
 Along this journey, I decided to follow this course: (Web Browser Engineering)[https://browser.engineering/index.html].
 
---
-
 # What I've learned
 
 Sharing shamelessly all the questions and answers that I asked myself while going through this project.
 
 ## Why does python uses Socket? Why doesn't it use HTTP (fetch)?
 
-- Browsers do not use "HTTP" as an external library. They implement the HTTP themselves on top of sockets. "HTTP" is just a protocol.
+> **TL;DR**  
+> Browsers do not use "HTTP" as an external library.  
+> They implement HTTP themselves on top of sockets.  
+> HTTP is just a protocol.
 
 ### Socket & TCP
 
