@@ -4,7 +4,7 @@
 
 While preparing for my job interview, I realized that my knowledge related web technologies was pretty shallow. I asked myself: what could be a good way for me to learn more deeply about web technologies and understand in more depth? Sure, I could go and buy a book or watch some youtube videos about it, but then an idea clicked inside me: Why not create a web browser for myself?
 
-Along this journey, I decided to follow this course: (Web Browser Engineering)[https://browser.engineering/index.html].
+Along this journey, I decided to follow this course: [Web Browser Engineering](https://browser.engineering/index.html).
 
 # What I've learned
 
