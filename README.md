@@ -30,3 +30,7 @@ Nutshell: HTTP defines how information is structured, TCP provides the connectio
 Thus, from the OS's point of view, HTTP request is just bytes written to a TCP socket.
 
 `Browser -> HTTP -> TCP (accessed via sockets) -> IP -> Ethernet / Wifi`
+
+## Event-handling cycle
+
+![Event Handling Cycle](assets/event-handling-cycle.png)
