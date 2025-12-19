@@ -165,8 +165,6 @@ class Layout:
 
         baseline = self.cursor_y + 1.25 * max_ascent
 
-        print("self.line", self.line)
-
         for x, word, font in self.line:
             y = baseline - font.metrics("ascent")
             self.display_list.append((x, y, word, font))
@@ -197,9 +195,7 @@ class Browser:
 
     def draw(self):
         self.canvas.delete("all")
-        print("self.display_list", self.display_list)
         for x, y, word, font in self.display_list:
-            print("word", word)
             if y > self.scroll + HEIGHT:
                 continue
             if y + VSTEP < self.scroll:
